@@ -1,6 +1,8 @@
 Database of chest X-ray images for COVID-19 positive cases along with Normal and Viral Pneumonia images. In current release, 
 there are 1200 COVID-19 positive images, 1341 normal images, and 1345 viral pneumonia images. Database continue to update
-There are two predictive models were built (in PyTorch and in FastAI with applying additional technicue like label smoothing, TTA(test time augmentation). 
+There are two predictive models were built in:
+- PyTorch (with CAM)
+- FastAI, with applying additional techniques like label smoothing, TTA(test time augmentation), Progressive Resizing.
 Also here are files from the Coursera course for using AI in the medicine. 
 
 
